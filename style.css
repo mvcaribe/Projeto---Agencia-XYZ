@@ -100,13 +100,35 @@ main {
     animation-name: bounce;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-
 }
 
+.about,
+.services,
+.portifolio,
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+}
 
+h2 {
+    margin-bottom: 20px;
+}
 
+.about {
+    border-bottom: 1px solid var(--main-text-light);
+}
 
+.about img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
 
+.about p {
+    margin: 10px auto;
+    max-width: 600px;
+}
 
 @media (width > 700px) {
     .nav-hide {
